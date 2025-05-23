@@ -15,6 +15,3 @@ app.get('/', (req, res) => {
   res.json({"message":"server running"});
 });
 
-app.listen(port, () => {
-  console.log('Server running on port', port);
-});
