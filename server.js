@@ -12,7 +12,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-  res.send("server running");
+  res.json({"message":"server running"});
 });
 
 app.listen(port, () => {
